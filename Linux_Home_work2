@@ -1,0 +1,82 @@
+   0 pwd
+   1 cd /home
+   2 mkdir /user
+   3 cd /user
+   4 mkdir /start
+   5 cd /start
+   6 tree
+   7 touch 1.txt
+   8 cat start
+   9 cat /start
+  10 ls -l
+  11 Start >> 1.txt
+  12 pwd
+  13 nano <2.txt>
+  14 nano<2.txt>
+  15 nano 2.txt
+  16 nano 1.txt
+  17 tree
+  18 head 1.txt
+  19 date
+  20 date >> 1.txt
+  21 head 1.txt
+  22 cp
+  23 cd /home
+  24 mkdir /opt
+  25 mkdir opt
+  26 cd /opt
+  27 mkdir task
+  28 cd /task
+  29 mkdir task
+  30 cd task
+  31 pwd
+  32 touch start.txt
+  33 cp date
+  34 date >> start.txt
+  35 head start.txt
+  36 cd /start
+  37 tail 1.txt
+  38 cat 1.txt | sed '$2'
+  39 ls -l /start
+  40 ls -l /1.txt
+  41 ls -l /start/1.txt
+  42 ls -l /start/1.txt | sed '{print $6,$7,$4}'
+  43 ls -l /start/1.txt | awk '{print $6,$7,$4}'
+  44 ls -l /start/1.txt | awk '{print $6,$7,$8}'
+  45 ls -l /start/1.txt | awk '{print $6,$7,$8}' >> start.txt
+  46 head start.txt
+  47 cd /root
+  48 ls -l
+  49 pws
+  50 pwd
+  51 ls
+  52 ls -l
+  53 ls -l | awk '{print $9}'
+  54 ls -l | awk '{print $9}' >> start.txt
+  55 head start.txt
+  56 pwd
+  57 cd /start
+  58 head 1.txt
+  59 cd /task
+  60 cd /home
+  61 cd /task
+  62 cd /opt
+  63 cd /task
+  64 tree
+  65 cd /task
+  66 cat task
+  67 head start.txt
+  68 cat opt
+  69 cat /pot
+  70 cat /opt
+  71 head opt
+  72 cd /start.txt
+  73 pwd
+  74 task
+  75 cd /task
+  76 cd/task
+  77 cd /task
+  78 cat task
+  79 head task 
+  80 history
+  81 history > history.txt
